@@ -1,0 +1,31 @@
+@import "foundation.css";
+
+.panel {
+	overflow: hidden;
+}
+
+.library-widget {
+	a.button{
+		margin-left: 1em;
+	}
+	
+	ul {
+		list-style: none;
+	}
+	
+	.has-tip {
+		cursor: pointer;
+	}
+}
+
+footer {
+	
+	p, h6 {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.twelve {
+		margin: 2em auto 10em auto;
+	}
+}
