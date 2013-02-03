@@ -20,30 +20,35 @@
     
     	<div class="main-content">
 	    	
-	    	<nav class="top-bar">
-	    		<ul>
-	    			<li><a href="#">Enoch Pratt Free Library</a></li>
-	    			<li><a href="#">Books &amp; Media</a></li>
-	    			<li><a href="#">My Library</a></li>
-	    			<li><a href="#">About</a></li>
-	    		</ul>
-	    		
-	    		<ul class="right">
-	    			<a class="small button success">Sign in</a>
-	    		</ul>
-	    	</nav>
+	    	<div class="fixed">
+		    	<nav class="top-bar">
+		    		<ul>
+		    			<li><a href="#">Enoch Pratt Free Library</a></li>
+		    			<li><a href="#">Books &amp; Media</a></li>
+		    			<li><a href="my-library.html">My Library</a></li>
+		    			<li><a href="#">About</a></li>
+		    			<li class="toggle-topbar"><a href="#"></a></li>
+		    		</ul>
+		    		
+		    		<ul class="right">
+		    			<a class="small button success">Sign in</a>
+		    		</ul>
+		    	</nav>
+	    	</div>
 	    	
-	    	<div class="row">
-	    		<div class="twelve columns">
-	    			<h1>Search the Catalog</h1>
-	    			<div class="row collapse">
-						<div class="ten mobile-three columns">
-							<input type="text" />
+	    	<div class="catalog-search">
+	    		<div class="row">
+		    		<div class="twelve columns">
+		    			<h1>Search the Catalog</h1>
+		    			<div class="row collapse">
+							<div class="ten mobile-three columns">
+								<input type="text" />
+							</div>
+							<div class="two mobile-one columns">
+								<a class="button expand postfix">Search</a>
+							</div>
 						</div>
-						<div class="two mobile-one columns">
-							<a class="button expand postfix">Search</a>
-						</div>
-					</div>
+		    		</div>
 	    		</div>
 	    	</div><hr/>
 	    	
@@ -71,17 +76,17 @@
 	    				<section class="currently-reading">
 	    					<h3>Currently Reading</h3>
 	    					<ul>
-	    						<li><a href="#" class="has-tip tip-top" data-width="350" title="<img src='http://www.placehold.it/130x180'>">The Road</a></li>
-	    						<li><a href="#" class="has-tip tip-top" data-width="350" title="<img src='http://www.placehold.it/130x180'>">Great Mexican Recipes</a></li>
+	    						<li><a href="#" class="has-tip" data-width="350" title="<img src='http://www.placehold.it/130x180'>">The Road</a></li>
+	    						<li><a href="#" class="has-tip" data-width="350" title="<img src='http://www.placehold.it/130x180'>">Great Mexican Recipes</a></li>
 	    					</ul>
 	    				</section>
 	    				
 	    				<section class="due-back">
 	    					<h3>Due Back Soon</h3>
 	    					<ul>
-	    						<li>Book Title<a href="#" class="button tiny radius">Renew Online</a></li>
-	    						<li>Book Title<a href="#" class="button tiny radius">Renew Online</a></li>
-	    						<li>Book Title<a href="#" class="button tiny radius">Renew Online</a></li>
+	    						<li>Book Title: Feb 6<a href="#" class="button tiny radius">Renew Online</a></li>
+	    						<li>Book Title: Feb 6<a href="#" class="button tiny radius">Renew Online</a></li>
+	    						<li>Book Title: Feb 9<a href="#" class="button tiny radius">Renew Online</a></li>
 	    					</ul>
 	    				</section>
 	    			</div><!-- /.library-widget -->
